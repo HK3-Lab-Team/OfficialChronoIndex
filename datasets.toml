@@ -1,0 +1,48 @@
+[datasets.aleppo]
+enabled = true
+handler = "chronoindex.dataset_ingestion.aleppo_cgm_dataset:AleppoCGMDataset"
+harmonizer = "chronoindex.dataset_harmonization:harmonize_loaded_aleppo"
+path_kwargs = ["metadata_root_folder"]
+
+[datasets.aleppo.kwargs]
+metadata_root_folder = "data/aleppo2017/Replace-BG Dataset/Data Tables"
+
+[datasets.colas]
+enabled = true
+handler = "chronoindex.dataset_ingestion.colas_cgm_dataset:ColasCGMDataset"
+harmonizer = "chronoindex.dataset_harmonization:harmonize_loaded_colas"
+path_kwargs = ["metadata_root_folder"]
+
+[datasets.colas.kwargs]
+metadata_root_folder = "data/colas2019/S1"
+
+[datasets.zhao]
+enabled = true
+handler = "chronoindex.dataset_ingestion.zhao_cgm_dataset:ZhaoCGMDataset"
+harmonizer = "chronoindex.dataset_harmonization:harmonize_loaded_zhao"
+path_kwargs = ["metadata_file", "cgm_folder"]
+
+[datasets.zhao.kwargs]
+metadata_file = "data/zhao2023/Shanghai_T2DM_Summary.xlsx"
+cgm_folder = "data/zhao2023/Shanghai_T2DM"
+
+[datasets.praes_unil]
+enabled = true
+handler = "chronoindex.dataset_ingestion.praes_cgm_dataset:PRAESIIDIUMDataset"
+harmonizer = "chronoindex.dataset_harmonization:harmonize_loaded_praes"
+path_kwargs = ["data_path", "macros_path"]
+
+[datasets.praes_unil.kwargs]
+data_path = "data/UNIL/PRAES-export-all-2025-11-03.json"
+macros_path = "data/UNIL/PRAES-macronutrients-2025-11-03.json"
+clean = true
+
+[datasets.praes_mug]
+enabled = true
+handler = "chronoindex.dataset_ingestion.praes_cgm_dataset:PRAESIIDIUMDataset"
+harmonizer = "chronoindex.dataset_harmonization:harmonize_loaded_praes"
+path_kwargs = ["data_path"]
+
+[datasets.praes_mug.kwargs]
+data_path = "data/MUG/PRAES-export-all-2025-11-03.json"
+clean = true

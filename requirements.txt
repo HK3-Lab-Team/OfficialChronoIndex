@@ -1,0 +1,5 @@
+polars
+pydantic
+fastexcel
+matplotlib
+pycatch22

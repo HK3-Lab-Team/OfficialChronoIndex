@@ -1,0 +1,40 @@
+ChronoIndex License Agreement (EULA)
+Version 1.0
+© 2026 HK3Lab S.R.L.
+
+Subject to payment of applicable fees, the Licensor grants the User a 
+non-exclusive, non-transferable, non-sublicensable license to use the 
+Software for internal purposes in accordance with the selected tier 
+(Community, Research Lab, or Enterprise).
+
+The Software may be used for:
+- academic research and experimentation;
+- internal data analysis and modeling;
+- evaluation and development of analytical pipelines.
+
+Use must comply with the scope and limitations of the purchased license tier.
+
+RESTRICTIONS
+The User shall not:
+- redistribute, resell, sublicense, or make the Software available to third parties;
+- provide the Software as a hosted or SaaS service;
+- use the Software beyond the licensed modules or usage limits.
+
+Use of the Software in commercial environments (including pharma, biotech, 
+CROs, or production systems) requires an Enterprise License or explicit 
+written agreement with the Licensor.
+
+LLM MODULE
+Access to LLM-based features may require onboarding and is subject to 
+usage limits or additional agreements.
+
+DATA RESPONSIBILITY
+The User is solely responsible for:
+- the quality, legality, and integrity of input data;
+- compliance with applicable data protection regulations (e.g., GDPR);
+- the use and interpretation of outputs.
+
+DISCLAIMER
+The Software is provided "as is", without warranty of any kind.
+
+For licensing, onboarding, or enterprise use: enrica.troiano@hk3lab.ai
